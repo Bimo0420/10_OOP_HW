@@ -17,7 +17,7 @@ namespace N1 //1.   Угол задан с помощью целочисленн
                 int d = Convert.ToInt32(Console.ReadLine());
                 int m = Convert.ToInt32(Console.ReadLine());
                 int s = Convert.ToInt32(Console.ReadLine());
-                angle = new Angle(d, m, s);
+                angle = new Angle(d, m, s); //? :(
             }
             while (angle.isCorrect == false);
 

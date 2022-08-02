@@ -59,7 +59,7 @@ namespace N1
                     
             }
         }
-        public double ToRadians()
+        public double ToRadians() //так можно без Convert получить дробный результат??
         {
             return (second + minute * 60 + degree * 3600 * Math.PI) / 180 * 3600;
         }
